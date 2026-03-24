@@ -15,7 +15,7 @@ import About from "../pages/About";
 import { motion } from "framer-motion";
 import { useState, useEffect, useMemo, useRef } from "react";
 import RINGS from "vanta/dist/vanta.rings.min";
-import * as THREE from "three"; // Required for Vanta.js
+import * as THREE from "three"; 
 
 const HomePage = () => {
   const [darkMode, setDarkMode] = useState(() => {
@@ -162,7 +162,7 @@ const HomePage = () => {
                   whileTap="tap"
                 >
                   <a
-                    href="https://www.canva.com/design/DAGYTI_SLs0/CqBPJb_JJf-Y6dVyFF3Jlw/edit?utm_content=DAGYTI_SLs0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                    href="https://www.canva.com/design/DAG3OoYWY1g/fCgVmn_3J7UYYiwi-_lxZg/edit"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center px-6 py-3 bg-blue-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
